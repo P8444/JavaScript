@@ -1,0 +1,23 @@
+var myFullName;
+console.log(myFullName);
+myFullName="Poonam Waghmare";
+console.log(myFullName);
+myFullName="Poonam Ashok Waghmare";
+console.log(myFullName);
+var myLove;
+myLove="I love only JS";
+console.log(myLove);
+var firstName="Poonam";
+console.log(firstName);
+var lastName="Waghmare"
+console.log(lastName);
+var age="31";
+console.log(age);
+var address="Phaltan";
+console.log;
+var pincode="415523";
+console.log(pincode);
+var gender="Female";
+console.log(gender);
+var isMarried="Yes";
+console.log(isMarried);
