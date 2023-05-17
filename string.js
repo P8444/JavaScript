@@ -45,3 +45,26 @@ lastName.trimEnd();
 var firstName = "Gajanan";
 var result = firstName.length;
 console.log("Total char available in firstName is:",result );
+
+var greet = "Good Morning";
+var includeResult = greet.includes("ing");
+console.log("Is string available inside:",includeResult);
+
+var searchResult = greet.search("Mor");
+console.log("Search result:", searchResult);
+
+var sliceResult= greet.slice(4,6);
+console.log("Slice result is:",sliceResult);
+
+var subStringResult=greet.substring(4,6);
+console.log("Substring is:",subStringResult);
+
+var greet="Good Morning mate, How are you";
+var splitResult=greet.split(" ");
+console.log("Split Result is:",splitResult);
+console.log("Total no of parts:", splitResult.length);
+
+var splitResult=greet.split("");
+console.log("Split Result is:",splitResult);
+console.log("Total no of parts:", splitResult.length);
+
