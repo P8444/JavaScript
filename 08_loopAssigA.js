@@ -13,10 +13,11 @@ console.log(`Count total vowels: ${count}`);
 
 console.log("Que 2.");
 function cubeSum() {
-   var sum=0;
+   var sum=0
     for (let index = 1; index <= 5; index++) {
-         sum  =sum + (index*index*index);
-         console.log(`cube of ${index}=${sum}`);
+         cube  = index*index*index;
+         console.log(`cube of ${index}=${cube}`);
+         sum=sum+cube;
         //console.log(`${sum}`);
     }
     console.log(`Sum of cube=${sum}`);
