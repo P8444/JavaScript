@@ -22,7 +22,9 @@ function cubeSum() {
     }
     console.log(`Sum of cube=${sum}`);
    
-}cubeSum()
+}cubeSum();
+
+
 console.log("Que. 3");
 
    

@@ -84,7 +84,3 @@ for (let index = 0; index < word.length; index++) {
     
 }
 
-
-for (let index = 100; index >=80; index=index-1) { // index = 11
-    console.log(index); // 0 1  2 ... 10 
-}
