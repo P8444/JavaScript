@@ -15,10 +15,10 @@ const thirdElement = arrayNumbers[element-9];
 console.log("Third element of an array : ", thirdElement);
 
 console.log("");
-console.log("Even numbers from th array are:");
+console.log("Even numbers from the array are:");
 for (const element in arrayNumbers) {
     if(element%2==0){
-    console.log(element);
+    console.log(`${arrayNumbers[element]}`);
 
     }
 }
